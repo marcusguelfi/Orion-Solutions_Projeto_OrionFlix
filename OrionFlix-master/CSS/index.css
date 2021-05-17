@@ -1,0 +1,394 @@
+body,html {
+  padding: 0 10px;
+  margin: 0;
+  background: #0e0f11;
+  color: #ecf0f1;
+  font-family: 'Open Sans', sans-serif;
+  min-height: 100vh;
+  width: 100%;
+}
+* {
+  box-sizing: border-box;
+}
+
+h4{
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+.box ul{
+  position: relative;
+  transition: 450ms;
+  text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  transition: 450ms;
+
+}
+.box li{
+  display: inline;
+  padding-left: 10px;
+}
+ul{
+  position: relative;
+  transition: 450ms;
+  text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  transition: 450ms;
+  margin-left: 290px;
+}
+li{
+  display: inline-block;
+  padding-left: 25px;
+}
+.humor ul{
+  position: relative;
+  transition: 450ms;
+  text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  transition: 450ms;
+}
+.humor li{
+  display: inline;
+  padding-left: 10px;
+}
+.drama ul{
+  position: relative;
+  transition: 450ms;
+  text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  transition: 450ms;
+}
+.drama li{
+  display: inline;
+  padding-left: 10px;
+}
+.suspense ul{
+  position: relative;
+  transition: 450ms;
+  text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  transition: 450ms;
+}
+.suspense li{
+  display: inline;
+  padding-left: 10px;
+}
+.ficcao ul{
+  position: relative;
+  transition: 450ms;
+  text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  transition: 450ms;
+}
+
+.ficcao li{
+  display: inline;
+  padding-left: 10px;
+}
+
+figure img{
+  width: 200px;
+  height: 300px;
+}
+figure{
+    display: inline-block;
+}
+.banner h2{
+  margin: 50px 0 0 0;
+}
+.banner figure img{
+  margin-top: 15px;
+  max-width: 100%;
+  height: auto;
+}
+.series ul{
+  margin-block-start: 3em;
+  margin-block-end: 3em;
+  margin-inline-start: 400px;
+  margin-inline-end: 100px;
+  margin-top: 20px;
+}
+.filmes ul{
+  margin-block-start: 3em;
+  margin-block-end: 3em;
+  margin-inline-start: 400px;
+  margin-inline-end: 100px;
+  margin-top: 20px;
+}
+.Series{
+  width: 250px;
+  height: 140.625px;
+}
+.row__inner{
+transition: 450ms;
+font-size: 0;
+white-space: nowrap;
+margin: 70.3125px 0;
+padding-bottom: 10px;
+}
+.row{
+  position: relative;
+  display: inline-block;
+  width: 250px;
+  height: 140.625px;
+  margin-right: 15px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 450ms all;
+}
+.HomeRow{
+margin-left: 65px;
+}
+.RowsFilmes{
+  margin-left: 300px;
+}
+.imagemFilme{
+  margin-right: 50px;
+
+}
+a{
+  transition: color 150ms;
+  color: #95a5a6;
+  text-decoration: none;
+}
+a:hover {
+  color: #7f8c8d;
+  text-decoration: underline;
+}
+.detalhes{
+  width: 80%;
+  height: 150px;
+}
+.sobrenos{
+  width:50%;
+  height: auto;
+  float: left;
+  padding: 20px;
+  font-size: 18px;
+  text-align: justify;
+
+}
+.vantagens{
+  width:50%;
+  height: auto;
+  float: right;
+  padding: 20px;
+  font-size: 18px;
+  text-align: justify;
+}
+.sobrenos h2,.vantagens h2{
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.logo{
+  transition: 460ms;
+  width:20%;
+  height: auto;
+}
+.menu{
+  margin-top:-45px;
+}
+.Series a{
+  color: white;
+  text-decoration: none;
+}
+.filmes a{
+  color: white;
+  text-decoration: none;
+}
+span{
+  transition: 460ms;
+}
+span:hover{
+  color:#9079b5;
+  font-size: 20px;
+  cursor: pointer;
+}
+.sobrenos h2,.vantagens h2{
+  transition: 460ms;
+}
+.sobrenos h2:hover,.vantagens h2:hover{
+  font-size: 25px;
+  cursor: pointer;
+  color: #9079b5;
+}
+
+main img{
+  transition: 500ms;
+  opacity: 70%;
+}
+main img:hover{
+  width: 250px;
+  height: 370px;
+  opacity: 100%;
+}
+main img .banner{
+  width: 100%;
+  height: 370px;
+}
+.humor li{
+  width: 250px;
+  height: 140.625px;
+  display: inline-block;
+}
+.drama li{
+  width: 250px;
+  height: 140.625px;
+  display: inline-block;
+}
+.suspense li{
+  width: 250px;
+  height: 140.625px;
+  display: inline-block;
+}
+.ficcao li{
+  width: 250px;
+  height: 140.625px;
+  display: inline-block;
+}
+.button{
+  text-align: center;
+  cursor: pointer;
+}
+.button main img {
+  text-decoration: none;
+  opacity: 100%;
+}
+.button main img:hover{
+  width: 0px;
+  height: 0px;
+}
+hr{
+  border-radius: 5px;
+  border: 1px solid white;
+}
+.humor main img{
+  transition: 500ms;
+  opacity: 70%;
+}
+.humor main img:hover{
+  width: 200px;
+  height: 200px;
+  opacity: 100%;
+}
+.drama main img{
+  transition: 500ms;
+  opacity: 70%;
+}
+.drama main img:hover{
+  width: 200px;
+  height: 200px;
+  opacity: 100%;
+}
+.suspense main img{
+  transition: 500ms;
+  opacity: 70%;
+}
+.suspense main img:hover{
+  width: 200px;
+  height: 200px;
+  opacity: 100%;
+}
+.ficcao main img{
+  transition: 500ms;
+  opacity: 70%;
+}
+.ficcao main img:hover{
+  width: 200px;
+  height: 200px;
+  opacity: 100%;
+}
+.drama h2,.drama h3{
+  font-size: 20px;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+.humor h2,.humor h3{
+  font-size: 20px;
+  margin-top: 25px;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.suspense h2,.suspense h3{
+  font-size: 20px;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+.ficcao h2,.ficcao h3{
+  font-size: 20px;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+.containerContato{
+  display: flex;
+}
+.containerContato form{
+  margin: 40px 0;
+}
+
+.containerContato ,.nome,.email,.descricao{
+  display: block;
+  padding: 5px;
+  width: 50%;
+}
+label .nome,label .email,label .descricao{
+  font-size: 20px;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+.footer{
+  flex-wrap: nowrap;
+}
+.contato{
+  display: inline-block;
+  margin-left: 290px;
+}
+.informacoes{
+  width:40px;
+  width:500px;
+  float:left;
+  margin-top: 45px;
+}
+.bannerseries{
+  margin: 0 auto;
+  width: 790px;
+}
+input{
+  border-radius: 5px;
+  font-size: 20px;
+  color: black;
+}
+.footerHome{
+  margin-top: 25px;
+}
+.imagens{
+  float: right;
+}
+.menuFilme{
+  margin-top: -75px;
+}
+.logoFilme{
+  margin-top: -22px;
+}
+.imagemFilme figure img {
+  width: 300px;
+  height: 180px;
+}
+.imagemFilme figure{
+  margin-block-start: 3em;
+  margin-block-end: 3em;
+  margin-inline-start: -173px;
+  margin-inline-end: -102px;
+}

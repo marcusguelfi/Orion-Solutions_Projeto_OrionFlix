@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width = device-width , initial-scale=1">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="shortcut icon" href="../IMAGE/favicon.ico" />
+    <title>Contato</title>
+  </head>
+  <body>
+    <header>
+    <div class="box">
+      <h1><img src="../IMAGE/OrionFlix-logo.png" alt="Logo" title="Logo"></h1>
+      <nav class="menu">
+        <ul>
+          <li><a href="../INDEX.html" target="_self">Home</a></li>
+          <li><a href="FILMES.html" target="_self">Filmes</a></li>
+          <li><a href="SERIES.html" target="_self">Series</a></li>
+          <li><a href="CATEGORIAS.html" target="_self">Categorias</a></li>
+          <li><a href="CONTATO.html" target="_self">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+    </header>
+    <div class="containerContato">
+      <main>
+        <form class="contato" onsubmit="alert('Mensagem enviada com sucesso!')">
+          <label for="nome" class="nome">Nome:</label>
+          <input type="text" id="nome" name="nome"/>
+
+          <label for="email" class="email">Email:</label>
+          <input type="text" id="email" name="email"/>
+
+          <label for="Descricao" class="descricao" >Mensagem:</label>
+          <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+          <div></div>
+          <input type="submit" value="Enviar" class="contatoLogo" />
+        </form>
+      </main>
+    </div>
+    <footer class="footer">
+      <img src="../IMAGE/OrionFlix-logo.png" alt="Logo" title="OrionFlix">
+      <p class="copyright">&copy; Copyright OrionFlix - 1997</p>
+    </footer>
+  </body>
+</html>
